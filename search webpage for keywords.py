@@ -28,9 +28,11 @@ def search_keywords_in_webpage(url, keywords):
 # Example usage
 urls = [
     "https://en.wikipedia.org/wiki/Lawrence_Martin-Bittman",
-    "https://en.wikipedia.org/wiki/The_KGB_and_Soviet_Disinformation"
+    "https://en.wikipedia.org/wiki/The_KGB_and_Soviet_Disinformation",
+    "https://archive.org/stream/1985-09-07-kgb-2955/1985-09-07-KGB-2955_djvu.txt",
+    "https://archive.org/stream/1985-07-10-joint-am/1985-07-10-joint-am_djvu.txt"
 ]
-keywords = ["russia", "kgb", "potato"]
+keywords = ["russia", "kgb", "подготовка", "1985", "potato"]
 
 for url in urls:
     search_keywords_in_webpage(url, keywords)
