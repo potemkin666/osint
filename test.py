@@ -48,3 +48,4 @@ near_sensitive_location = is_near_sensitive_location(current_location, sensitive
 high_risk = flagged_count > 1 and near_sensitive_location
 
 print("High Risk Activities:", high_risk)
+
