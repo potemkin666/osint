@@ -1,4 +1,4 @@
-#downloads all images from a given url :) 4/10/24
+#downloads all images from a given url :) DOESMT WORK ???
 
 import requests
 from bs4 import BeautifulSoup
